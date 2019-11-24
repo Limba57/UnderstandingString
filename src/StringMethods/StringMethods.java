@@ -28,9 +28,10 @@ public class StringMethods {
 
         // substring
         // str = str.substring((8));
-        System.out.println(str.substring(8)); // --> fun        index 8 is in
+        System.out.println(str.substring(8)); //    --> fun        index 8 is in
         System.out.println(str.substring(0, 5)); // --> java_   index 0 is in but not index 5
         System.out.println(str.substring(4, 4)); // nothing is print --> empty string
+        System.out.println(str.substring(8,12));
 
         // System.out.println(str.substring(4, 2));  // out of range
         // System.out.println(str.substring(8, 14)); // out of range
