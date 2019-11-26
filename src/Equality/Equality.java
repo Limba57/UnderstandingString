@@ -35,8 +35,6 @@ public class Equality {
         System.out.println(e == i);
         System.out.println(e == j);
 
-        String test = 1 + 2;
-
     }
 
 }
