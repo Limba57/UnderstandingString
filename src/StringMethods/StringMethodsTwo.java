@@ -31,7 +31,16 @@ public class StringMethodsTwo {
         System.out.println("Java".contains("j".toUpperCase())); // true
 
         // replace
+        String myString = "Java" + " " + "is" + " " + "cool";
+        System.out.println("\n"+myString.replace('a', 'A'));
+        System.out.println(myString.replace(" ", "_"));
+        System.out.println(myString.replace("os", "_"));
 
+        //trim
+        System.out.println("Java".trim());
+        System.out.println(" Java is cool");
+        System.out.println(" Java is cool".trim());
+        System.out.println("Java is cool ".trim());
 
     }
 }
